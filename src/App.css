@@ -1,0 +1,207 @@
+.HeaderLink {
+  text-decoration: none;
+}
+.Header {
+  height: 48px;
+  background-color: teal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.Title {
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.Main {
+  min-height: calc(100vh - 48px);
+}
+.Footer {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  height: 128px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Copyright {
+  color: white;
+  font-size: 16px;
+}
+
+.MainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.itemWrapper {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.itemTitle {
+  font-size: 1.5em;
+  margin: 5px 0 0 10px;
+}
+
+.itemSubtitle {
+  margin: -5px 0 0 10px;
+}
+
+.itemDetails {
+  margin: 5px 60px 10px 10px;
+  text-align: justify;
+}
+
+.itemPrice {
+  margin: 30px 0 0 10px;
+  font-size: 1.6em;
+}
+
+.itemImg {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.pageWrapperWrapper {
+  color: black;
+  text-decoration: none;
+  min-height: calc(100vh - 48px);
+  width: 90vw;
+}
+
+.pageWrapper {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin: 20px;
+  width: 90vw;
+  min-height: 90vh;
+}
+
+.pageImgWrapper {
+  margin: 10px;
+}
+
+.pageTitle {
+  font-size: 1.9em;
+  margin: 5px 0 0 10px;
+}
+
+.pageSubtitle {
+  margin: -5px 0 0 10px;
+  font-size: 1.1em;
+}
+
+.pageDetails {
+  margin: 5px 60px 10px 10px;
+  text-align: justify;
+}
+
+.pageDetailsMore {
+  margin: 5px 60px 10px 10px;
+  text-align: justify;
+}
+
+.pagePrice {
+  margin: 30px 0 0 10px;
+  font-size: 1.6em;
+}
+
+.pageImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.pageBuy {
+  margin: 30px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pageBuyButton {
+  margin: 20px 20px 20px 10px;
+  padding: 12px 48px;
+  border-radius: 5px;
+  border: 1px solid teal;
+  outline: none;
+  background: unset;
+  color: teal;
+  font-weight: 600;
+  transition: 0.2s all ease-in-out;
+}
+
+.pageBuyButton:hover, .pageBuyButton:active, .pageBuyButton:focus {
+  background: teal;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .pageDetails {
+    margin: 5px 10px 10px 10px;
+  }
+  
+  .pageDetailsMore {
+    margin: 5px 10px 10px 10px;
+  }
+}
+
+.buyWrapperWrapper {
+  color: black;
+  text-decoration: none;
+  min-height: calc(100vh - 48px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyWrapper {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  width: 95vw;
+  min-height: 90vh;
+}
+
+.buyTitle {
+  margin: 20px 30px;
+  font-size: 2em;
+}
+
+.buyDetails {
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  outline: none;
+  border: 1px solid teal;
+  border-radius: 7px;
+  padding: 4px 15px;
+  margin: 0 10px -20px;
+}
+
+pre {
+  display: inline;
+}
+
+.exc {
+  margin-left: 20px;
+}
