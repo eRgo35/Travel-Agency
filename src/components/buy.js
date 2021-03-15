@@ -1,13 +1,12 @@
 import React from 'react'
 
-
 export default function Buy(props){
     let state = props.location.state;
     delete state.redirect;
-    let transactionId = "mspfj34i90cc23ir";
+
+    let transactionId = state.transactionID;
     let stateNames = Object.getOwnPropertyNames(state)
     stateNames = stateNames.map((el)=>/^[A-Z]{1}.*/.exec(el)).filter((el)=>el!==""&&el!==null&&el!==undefined)
-    console.log(stateNames);
     return(
         <div className="buyWrapperWrapper">
             <div className="buyWrapper">

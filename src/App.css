@@ -136,7 +136,7 @@
 }
 
 .pageBuyButton {
-  margin: 20px 20px 20px 10px;
+  margin: 10px 20px 20px 10px;
   padding: 12px 48px;
   border-radius: 5px;
   border: 1px solid teal;
@@ -195,7 +195,7 @@
   border: 1px solid teal;
   border-radius: 7px;
   padding: 4px 15px;
-  margin: 0 10px -20px;
+  margin: 0 10px -20px 0;
 }
 
 pre {
@@ -204,4 +204,16 @@ pre {
 
 .exc {
   margin-left: 20px;
+}
+
+b {
+  color: red;
+}
+
+.email {
+  margin-bottom: 5px;
+}
+.error {
+  color: red;
+  height: 16px;
 }
